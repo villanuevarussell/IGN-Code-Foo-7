@@ -1,4 +1,4 @@
-# codefoo7
+# IGN Code Foo 7
 Tasks 2-4 for Code Foo 7 Internship</br>
 </br>
 Task 1:</br>
