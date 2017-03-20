@@ -1,0 +1,208 @@
+/*general style for entire html*/
+*
+{
+   font-family: Trebuchet MS;
+}
+
+/*style for body*/
+body
+{
+   background-color:black;
+   height:100%;
+   width:98%;
+   padding-left: 5%;
+   padding-right: 5%;
+}
+/*style for div tgs*/
+div
+{
+    height:75%;
+    background-color:white;
+    border-radius: 15px;
+    padding-top:15px
+    
+}
+
+p
+{
+    margin:0px;
+    border:0px;
+    padding: 0px;
+}
+
+/*style for links */
+a{
+      font-size:20px;
+      padding: 10px 125px;
+      display: inline-block;
+      text-decoration: none;   
+}
+/*style for when you hover over links*/
+a:hover{
+      font-size:20px;
+      padding: 10px 125px;
+      display: inline-block;
+      text-decoration: underline;
+      
+}
+/*style for all images*/
+img
+{
+    padding-left:65px;
+    border:0px;
+    margin: 0px ;
+    
+    display: block;
+    position:relative;
+    
+    z-index: 99;
+    
+    width: 1000px;
+}
+
+/*style for class tags*/
+/*style for class a container which will hold all the data for a single video link*/
+.videoBoxes{
+   /*general*/ 
+   height: auto; 
+   position:relative;
+   font-weight: bold;
+   
+   /*margin*/
+   margin:0px;  
+   
+   /*border*/
+   border-bottom:0px solid grey;  
+   border-bottom:1px solid #808080;;
+   border-radius:0;
+   box-shadow: 2px 1px 0 .3px rgba(0,0,0,.3);
+   
+   /*padding*/
+   padding-left: 40px;
+   padding-bottom: 15px;
+}
+
+/*style for when you hover over  tags*/
+.videoBoxes:hover
+{
+    /*adds the red outline on the left border and the grey box*/
+    background-color: lightgrey;
+    border-left: 20px solid #B20000; 
+    padding-left:20px;
+}
+/*style for class a container which will hold all the data for a single article link*/
+.articleBoxes
+{   
+   /*general*/ 
+   height: auto; 
+   position:relative;
+   font-weight: bold;
+   
+   /*margin*/
+   margin:0px;  
+   
+   /*border*/
+   border-bottom:0px solid grey;  
+   border-bottom:1px solid #808080;;
+   border-radius:0;
+   box-shadow: 2px 1px 0 .3px rgba(0,0,0,.3);
+   
+   /*padding*/
+   padding-left: 40px;
+   padding-bottom: 15px;   
+}
+
+/*adds red border on the left and grey box when you hover over tag*/
+.articleBoxes:hover
+{
+    background-color: lightgrey;
+    border-left: 10px solid #B20000; 
+    padding-left:30px;
+}
+
+
+/*Style for index.html navigation bar*/
+#videosNav
+{
+  background: linear-gradient(
+  to right, 
+  #B20000 0%, 
+  #B20000 50%, 
+  #FFFFFF 50%, 
+  #FFFFFF 100%
+  );  
+    
+  border-radius: 25px;
+  border:1px solid #830303;
+}
+
+/*Style for Navigation bar for articles.html */
+#articlesNav
+{
+  background: linear-gradient(
+  to right, 
+  #FFFFFF 0%, 
+  #FFFFFF 50%, 
+  #B20000 50%, 
+  #B20000 100%
+  );  
+    
+  border-radius: 25px;
+  border:1px solid #830303;  
+}
+
+/*grey text subline */
+.subline
+{
+  color: grey;
+  opacity: .5;
+  font-weight: normal;
+}
+
+/*style for see more videos text*/
+.seeMoreVideos
+{
+  color: black;
+  opacity: .5;
+  font-weight: bolder;  
+  
+}
+/*style for when you hover over see more videos text*/
+.seeMoreVideos:hover
+{
+  color:black;
+  opacity: .25;
+
+}
+
+/*style for see more articles text*/
+.seeMoreArticles
+{
+  color: black;
+  opacity: .5;
+  font-weight: bolder;  
+  
+}
+/*style for when you hover over see more articles text*/
+.seeMoreArticles:hover
+{
+  color:black;
+  opacity: .25;
+
+}
+
+/*style for the Go To IGN button*/
+.button{
+    border-radius: 5px;
+    border:2px solid #B20000;
+    background-color: #B20000;
+    height:75px;
+    width:350px;
+    z-index: 100;
+    margin: auto;
+    text-align:center;
+    position:absolute;
+     
+    right: 200px;
+    top:150px;
+}   
